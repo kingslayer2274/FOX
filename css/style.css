@@ -1,0 +1,33 @@
+#navibar .fa,
+#navibar .fab {
+  color: #22c1f9; }
+
+#navibar .upper-nav {
+  border-bottom: 2px solid #ebebeb;
+  font-size: 0.7rem; }
+
+#carousel-example-generic {
+  height: 100%;
+  width: 100%; }
+
+.carouselTitle {
+  font-size: 2rem;
+  font-weight: 100;
+  color: white;
+  text-shadow: 0 1px 2px #000;
+  position: absolute;
+  bottom: 60px;
+  left: 80px; }
+
+#myslider .btn {
+  background-color: #2f383d; }
+  #myslider .btn .col-md-2.btnOne {
+    border-right: 1px solid #384146; }
+  #myslider .btn .fa-cube {
+    color: #1fbcff;
+    padding-right: 4px; }
+  #myslider .btn .fa-lightbulb {
+    color: #a6ff1f;
+    padding-left: 4px; }
+  #myslider .btn .col-md-2.btnTwo {
+    border-left: 1px solid #384146; }

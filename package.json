@@ -1,0 +1,14 @@
+{
+  "name": "theme-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "ninja",
+  "license": "ISC",
+  "dependencies": {
+    "popper.js": "^1.16.0"
+  }
+}
