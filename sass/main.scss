@@ -5,6 +5,8 @@ $social-icon: #becbd1;
 $dark-blue: #1ec1fa;
 $very-dark-blue: #0072a6;
 
+$text-grey: #f2f6f7;
+
 $dark: #2f383d;
 
 #navibar {
@@ -48,4 +50,174 @@ $dark: #2f383d;
   & .col-md-2.btnTwo {
     border-left: 1px solid #384146;
   }
+}
+
+#mysldierFooter {
+  background-color: $dark;
+  & p {
+    color: #c0cbd1;
+  }
+  & .btn {
+    background-color: $very-dark-blue;
+    color: white;
+    font-size: 0.9rem;
+  }
+}
+
+#cards {
+  & .border-info {
+    background-color: #f9fafc;
+  }
+  .my-card {
+    position: absolute;
+    left: 42%;
+    top: -20px;
+    border-radius: 10px;
+    background-color: $icon-blue;
+    & i {
+      color: white;
+    }
+  }
+
+  & .card_title {
+    color: $dark !important;
+  }
+  & .lorem {
+    color: rgba($dark, 0.7) !important;
+  }
+  & .btn {
+    background-color: $icon-blue;
+    color: white;
+  }
+
+  & .middle {
+    & .border-info {
+      background-color: $dark;
+    }
+    & .btn {
+      background-color: $dark;
+      color: white;
+    }
+  }
+}
+
+#my_gallery {
+  & .header {
+    color: $dark;
+  }
+  & .btn {
+    background-color: $icon-blue;
+    color: white;
+    font-size: 0.8rem;
+  }
+  & .fa-chevron-circle-left {
+    color: $icon-blue;
+  }
+}
+
+.resize {
+  margin-right: 3rem !important;
+  font-size: 1.4rem !important;
+}
+
+// GALLERY EFFECTS
+
+.hover-zoomin a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.hover-zoomin img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.hover-zoomin:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.hover-mask a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.hover-mask img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.hover-mask:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.hover-mask a h2 {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100%;
+  width: 100%;
+  padding: 45% 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.hover-mask:hover a h2 {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+.hover-mask .glyphicon {
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  color: #fff;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.hover-mask:hover .glyphicon {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";
+  filter: alpha(opacity=1);
+  opacity: 1;
 }

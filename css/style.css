@@ -31,3 +31,155 @@
     padding-left: 4px; }
   #myslider .btn .col-md-2.btnTwo {
     border-left: 1px solid #384146; }
+
+#mysldierFooter {
+  background-color: #2f383d; }
+  #mysldierFooter p {
+    color: #c0cbd1; }
+  #mysldierFooter .btn {
+    background-color: #0072a6;
+    color: white;
+    font-size: 0.9rem; }
+
+#cards .border-info {
+  background-color: #f9fafc; }
+
+#cards .my-card {
+  position: absolute;
+  left: 42%;
+  top: -20px;
+  border-radius: 10px;
+  background-color: #22c1f9; }
+  #cards .my-card i {
+    color: white; }
+
+#cards .card_title {
+  color: #2f383d !important; }
+
+#cards .lorem {
+  color: rgba(47, 56, 61, 0.7) !important; }
+
+#cards .btn {
+  background-color: #22c1f9;
+  color: white; }
+
+#cards .middle .border-info {
+  background-color: #2f383d; }
+
+#cards .middle .btn {
+  background-color: #2f383d;
+  color: white; }
+
+#my_gallery .header {
+  color: #2f383d; }
+
+#my_gallery .btn {
+  background-color: #22c1f9;
+  color: white;
+  font-size: 0.8rem; }
+
+#my_gallery .fa-chevron-circle-left {
+  color: #22c1f9; }
+
+.resize {
+  margin-right: 3rem !important;
+  font-size: 1.4rem !important; }
+
+.hover-zoomin a {
+  display: block;
+  position: relative;
+  overflow: hidden; }
+
+.hover-zoomin img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.hover-zoomin:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2); }
+
+.hover-mask a {
+  display: block;
+  position: relative;
+  overflow: hidden; }
+
+.hover-mask img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.hover-mask:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2); }
+
+.hover-mask a h2 {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100%;
+  width: 100%;
+  padding: 45% 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0; }
+
+.hover-mask:hover a h2 {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1; }
+
+.hover-mask .glyphicon {
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  color: #fff;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0; }
+
+.hover-mask:hover .glyphicon {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";
+  filter: alpha(opacity=1);
+  opacity: 1; }
