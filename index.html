@@ -48,7 +48,7 @@
         </div>
       </div>
 
-      <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light ">
         <div class="container">
           <a
             class="navbar-brand text-muted mr-5"
@@ -174,7 +174,6 @@
     <!-- CAROUSEL -->
 
     <section id="myslider">
-     
       <div
         id="carousel-example-generic"
         class="carousel slide text-center"
@@ -255,13 +254,19 @@
           </div>
           <div class=" text-center text-white cap_slider  ">
             <div class="my_caption">
-              <p class="mb-0 pb-0">
+              <p
+                class="mb-2 pb-0 my_caption-first"
+                style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"
+              >
                 Amazing Theme
               </p>
-              <p class="text-white mb-0 pb-0 " style="font-weight: bold; ">
+              <p
+                class="text-white mb-2 pb-0 my_caption--second"
+                style="font-weight: bold; "
+              >
                 ADELFOX IS THE BEST
               </p>
-              <p class="mb-0 pb-0">
+              <p class="mb-0 pb-0 my_caption-third" style="font-size: 1.4rem;">
                 Unique and Modern Design
               </p>
             </div>
@@ -275,8 +280,10 @@
                         <i class="fa fa-2x mt-2  fa-cube"></i>
                       </div>
                       <div class="col-md-10">
-                        <p class="d-inline-block p-0 m-0 text-white">ALL IN ONE</p>
-    
+                        <p class="d-inline-block p-0 m-0 text-white">
+                          ALL IN ONE
+                        </p>
+
                         <p class="m-0 p-0 text-white">Purchase Now</p>
                       </div>
                     </div>
@@ -284,10 +291,12 @@
                 </div>
                 <div class="col-md-6 btn11  pr-2">
                   <div class="btn btn-block ">
-                    <div class="row ">
+                    <div class="row  ">
                       <div class="col-md-10">
-                        <p class="d-inline-block p-0 m-0 text-white">ALL IN ONE</p>
-    
+                        <p class="d-inline-block p-0 m-0 text-white">
+                          ALL IN ONE
+                        </p>
+
                         <p class="m-0 p-0 text-white">Purchase Now</p>
                       </div>
                       <div class="col-md-2 btnTwo ">
@@ -319,7 +328,6 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-   
     </section>
 
     <section id="mysldierFooter">
@@ -434,177 +442,545 @@
                 VIEW MORE
               </button>
             </div>
+
             <div class="mt-3 mb-3">
-              <i
-                class="fa fa-chevron-circle-left fa-2x mr-2"
-                style="cursor: pointer;"
-              ></i>
-              <i
-                class="fa fa-chevron-circle-right fa-2x"
-                style="cursor: pointer;"
-              ></i>
+              <!-- CONTROLS -->
+              <a href="#galslider" data-slide="prev">
+                <i
+                  class="fa fa-chevron-circle-left fa-2x mr-2"
+                  style="cursor: pointer;"
+                ></i>
+              </a>
+
+              <a href="#galslider" data-slide="next">
+                <i
+                  class="fa fa-chevron-circle-right fa-2x"
+                  style="cursor: pointer; color: #2f383d;"
+                ></i>
+              </a>
             </div>
           </div>
           <div class="col-md-7">
-            
-            <div class="row">
-              <div class="col-md-6 mb-4">
-                <div class="photo-gallery">
-                  <div class="container">
-                    <div class="row photos">
-                      <div class=" item hover-mask">
-                        <a href="./img/gal2.jpg" data-lightbox="photos"
-                          ><img class="img-fluid" src="./img/gal1.jpg" />
-                          <h2>
-                            <span
-                              class="fa fa-plus"
-                              style="color: white;"
-                            ></span>
-                          </h2>
-                        </a>
+            <div
+              id="galslider"
+              class="carousel slide mb-5"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal2.jpg" data-lightbox="photos"
+                                ><img class="img-fluid" src="./img/gal1.jpg" />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                      <div class="item ">
-                        <a href="./img/gal3.jpg" data-lightbox="photos"></a>
-                      </div>
-                      <div class="item">
-                        <a href="./img/gal4.jpg" data-lightbox="photos"></a>
-                      </div>
-                      <div class="item">
-                        <a href="./img/gal1.jpg" data-lightbox="photos"></a>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal1.jpg" data-lightbox="photos"
+                                ><img class="img-fluid" src="./img/gal2.jpg" />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="photo-gallery">
-                  <div class="container">
-                    <div class="row photos">
-                      <div class=" item hover-mask">
-                        <a href="./img/gal1.jpg" data-lightbox="photos"
-                          ><img class="img-fluid" src="./img/gal2.jpg" />
-                          <h2>
-                            <span
-                              class="fa fa-plus"
-                              style="color: white;"
-                            ></span>
-                          </h2>
-                        </a>
-                      </div>
-                      <div class="item ">
-                        <a href="./img/gal3.jpg" data-lightbox="photos"></a>
-                      </div>
-                      <div class="item">
-                        <a href="./img/gal4.jpg" data-lightbox="photos"></a>
-                      </div>
-                      <div class="item">
-                        <a href="./img/gal1.jpg" data-lightbox="photos"></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row mt-4">
-              <div class="col-md-6 mb-4">
-                <div class="photo-gallery">
-                  <div class="container">
-                    <div class="row photos">
-                      <div class=" item hover-mask">
-                        <a href="./img/gal4.jpg" data-lightbox="photos"
-                          ><img class="img-fluid" src="./img/gal3.jpg" />
-                          <h2>
-                            <span
-                              class="fa fa-plus"
-                              style="color: white;"
-                            ></span>
-                          </h2>
-                        </a>
-                      </div>
-                      <div class="item ">
-                        <a href="./img/gal3.jpg" data-lightbox="photos"></a>
-                      </div>
-                      <div class="item">
-                        <a href="./img/gal4.jpg" data-lightbox="photos"></a>
-                      </div>
-                      <div class="item">
-                        <a href="./img/gal1.jpg" data-lightbox="photos"></a>
+                  <div class="row mt-4">
+                    <div class="col-md-6 mb-4">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal4.jpg" data-lightbox="photos"
+                                ><img class="img-fluid" src="./img/gal3.jpg" />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="photo-gallery">
-                  <div class="container">
-                    <div class="row photos">
-                      <div class=" item hover-mask">
-                        <a href="./img/gal1.jpg" data-lightbox="photos"
-                          ><img class="img-fluid" src="./img/gal4.jpg" />
-                          <h2>
-                            <span
-                              class="fa fa-plus"
-                              style="color: white;"
-                                class="carouselTitle text-center"
-                                style="font-size:2em; top:8em ; left: 25em;"
-                              >
-                                <p>
-                                  Amazing Theme
-                                </p>
-                                <p class="text-white " style="font-weight: bold; ">
-                                  ADELFOX IS THE BEST
-                                </p>
-                                <p>
-                                  Unique and Modern Design
-                                </p>
-                              </div> -->
-                  <!-- <div
-                                class="carouselTitle text-center"
-                                style="font-size:2em; top:8em ; left: 25em;"
-                              >
-                                <p>
-                                  Amazing Theme
-                                </p>
-                                <p class="text-white " style="font-weight: bold; ">
-                                  ADELFOX IS THE BEST
-                                </p>
-                                <p>
-                                  Unique and Modern Design
-                                </p>
-                              </div> -->
-                  <!-- <div
-                                class="carouselTitle text-center"
-                                style="font-size:2em; top:8em ; left: 25em;"
-                              >
-                                <p>
-                                  Amazing Theme
-                                </p>
-                                <p class="text-white " style="font-weight: bold; ">
-                                  ADELFOX IS THE BEST
-                                </p>
-                                <p>
-                                  Unique and Modern Design
-                                </p>
-                              </div> -->
-                            ></span>
-                          </h2>
-                        </a>
-                      </div>
-                      <div class="item ">
-                        <a href="./img/gal3.jpg" data-lightbox="photos"></a>
-                      </div>
-                      <div class="item">
-                        <a href="./img/gal4.jpg" data-lightbox="photos"></a>
-                      </div>
-                      <div class="item">
-                        <a href="./img/gal1.jpg" data-lightbox="photos"></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                    <div class="col-md-6">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal1.jpg" data-lightbox="photos"
+                                ><img class="img-fluid" src="./img/gal4.jpg" />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                    class="carouselTitle text-center"
+                                    style="font-size:2em; top:8em ; left: 25em;"
+                                  >
+                                    <p>
+                                      Amazing Theme
+                                    </p>
+                                    <p
+                                      class="text-white "
+                                      style="font-weight: bold; "
+                                    >
+                                      ADELFOX IS THE BEST
+                                    </p>
+                                    <p>
+                                      Unique and Modern Design
+                                    </p>
 
+                                    ></span
+                                  >
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal2.jpg" data-lightbox="photos"
+                                ><img class="img-fluid" src="./img/gal1.jpg" />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal1.jpg" data-lightbox="photos"
+                                ><img class="img-fluid" src="./img/gal2.jpg" />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-md-6 mb-4">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal4.jpg" data-lightbox="photos"
+                                ><img class="img-fluid" src="./img/gal3.jpg" />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal1.jpg" data-lightbox="photos"
+                                ><img class="img-fluid" src="./img/gal4.jpg" />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                    class="carouselTitle text-center"
+                                    style="font-size:2em; top:8em ; left: 25em;"
+                                  >
+                                    <p>
+                                      Amazing Theme
+                                    </p>
+                                    <p
+                                      class="text-white "
+                                      style="font-weight: bold; "
+                                    >
+                                      ADELFOX IS THE BEST
+                                    </p>
+                                    <p>
+                                      Unique and Modern Design
+                                    </p>
 
+                                    ></span
+                                  >
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal2.jpg" data-lightbox="photos"
+                                ><img class="img-fluid" src="./img/gal1.jpg" />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal1.jpg" data-lightbox="photos"
+                                ><img class="img-fluid" src="./img/gal2.jpg" />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-md-6 mb-4">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal4.jpg" data-lightbox="photos"
+                                ><img class="img-fluid" src="./img/gal3.jpg" />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal1.jpg" data-lightbox="photos"
+                                ><img class="img-fluid" src="./img/gal4.jpg" />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                    class="carouselTitle text-center"
+                                    style="font-size:2em; top:8em ; left: 25em;"
+                                  >
+                                    <p>
+                                      Amazing Theme
+                                    </p>
+                                    <p
+                                      class="text-white "
+                                      style="font-weight: bold; "
+                                    >
+                                      ADELFOX IS THE BEST
+                                    </p>
+                                    <p>
+                                      Unique and Modern Design
+                                    </p>
+
+                                    ></span
+                                  >
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -670,7 +1046,7 @@
         </a>
         <div id="sliderTwo">
           <div class="text-center text-white">
-            <p class="" style="font-size: 1.4rem;">
+            <p class="" style="font-size: 1.6rem;font-weight: bold;">
               Core Features of AdelFox
             </p>
             <p class="text-white  " style="font-weight: bold; ">
@@ -700,118 +1076,443 @@
 
     <section id="anotherGallery" class="mt-5">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card text-center">
-              <div class="card-body p-0">
-                <div class="photo-gallery">
-                  <div class="container">
-                    <div class="row photos">
-                      <div class=" item hover-mask">
-                        <a href="./img/gal1.jpg" data-lightbox="photos"
-                          ><img class="img-fluid clip" src="./img/gal4.jpg" />
-                          <h2>
-                            <span
-                              class="fa fa-plus"
-                              style="color: white;"
-                            ></span>
-                          </h2>
-                        </a>
+        <div id="sliderthree" class="carousel slide mb-5" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <div class="card text-center">
+                    <div class="card-body p-0">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal1.jpg" data-lightbox="photos"
+                                ><img
+                                  class="img-fluid clip"
+                                  src="./img/gal4.jpg"
+                                />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                      <div class="item ">
-                        <a href="./img/gal3.jpg" data-lightbox="photos"></a>
-                      </div>
-                      <div class="item">
-                        <a href="./img/gal4.jpg" data-lightbox="photos"></a>
-                      </div>
-                      <div class="item">
-                        <a href="./img/gal1.jpg" data-lightbox="photos"></a>
-                      </div>
+                    </div>
+                    <div class="card-footer text-left text-muted">
+                      <p class="" style="color: #22c1f9;">
+                        Lorem ipsum dolor sit amet.
+                      </p>
+                      <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quod, debitis quo. Voluptatem fugiat aspernatur nulla.
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="card-footer text-left text-muted">
-                <p class="" style="color: #22c1f9;">
-                  Lorem ipsum dolor sit amet.
-                </p>
-                <p class="text-muted">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                  debitis quo. Voluptatem fugiat aspernatur nulla.
-                </p>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-md-4 mb-3">
-            <div class="card text-center">
-              <div class="card-body p-0">
-                <div class="photo-gallery">
-                  <div class="container">
-                    <div class="row photos">
-                      <div class=" item hover-mask">
-                        <a href="./img/gal1.jpg" data-lightbox="photos"
-                          ><img class="img-fluid clip" src="./img/gal4.jpg" />
-                          <h2>
-                            <span
-                              class="fa fa-plus"
-                              style="color: white;"
-                            ></span>
-                          </h2>
-                        </a>
+                <div class="col-md-4 mb-3">
+                  <div class="card text-center">
+                    <div class="card-body p-0">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal1.jpg" data-lightbox="photos"
+                                ><img
+                                  class="img-fluid clip"
+                                  src="./img/gal4.jpg"
+                                />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                      <div class="item ">
-                        <a href="./img/gal3.jpg" data-lightbox="photos"></a>
-                      </div>
-                      <div class="item">
-                        <a href="./img/gal4.jpg" data-lightbox="photos"></a>
-                      </div>
-                      <div class="item">
-                        <a href="./img/gal1.jpg" data-lightbox="photos"></a>
-                      </div>
+                    </div>
+                    <div class="card-footer text-left text-muted">
+                      <p class="" style="color: #2f3839;">
+                        Lorem ipsum dolor sit amet.
+                      </p>
+                      <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quod, debitis quo. Voluptatem fugiat aspernatur nulla.
+                      </p>
                     </div>
                   </div>
                 </div>
+
+                <div class="col-md-4 mb-3">
+                  <p class="mb-3" style="font-size: 1.7rem;">
+                    Recent Posts
+                  </p>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Modi eaque quod ex officiis tempore sed natus, obcaecati,
+                    debitis ad asperiores minus, alias qui quis.
+                  </p>
+
+                  <button
+                    class="btn px-4 py-2"
+                    style="background-color: #22c1f9;color: white;"
+                  >
+                    VIEW MORE
+                  </button>
+                  <div class="mt-3 mb-3">
+                    <a href="#sliderthree" data-slide="prev">
+                      <i
+                        class="fa fa-chevron-circle-left fa-2x mr-2"
+                        style="cursor: pointer;color: #22c1f9;"
+                      ></i>
+                    </a>
+
+                    <a href="#sliderthree" data-slide="next">
+                      <i
+                        class="fa fa-chevron-circle-right fa-2x"
+                        style="cursor: pointer;color: #2f383d;"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
               </div>
-              <div class="card-footer text-left text-muted">
-                <p class="" style="color: #2f3839;">
-                  Lorem ipsum dolor sit amet.
-                </p>
-                <p class="text-muted">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                  debitis quo. Voluptatem fugiat aspernatur nulla.
-                </p>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <div class="card text-center">
+                    <div class="card-body p-0">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal1.jpg" data-lightbox="photos"
+                                ><img
+                                  class="img-fluid clip"
+                                  src="./img/gal4.jpg"
+                                />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-left text-muted">
+                      <p class="" style="color: #22c1f9;">
+                        Lorem ipsum dolor sit amet.
+                      </p>
+                      <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quod, debitis quo. Voluptatem fugiat aspernatur nulla.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                  <div class="card text-center">
+                    <div class="card-body p-0">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal1.jpg" data-lightbox="photos"
+                                ><img
+                                  class="img-fluid clip"
+                                  src="./img/gal4.jpg"
+                                />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-left text-muted">
+                      <p class="" style="color: #2f3839;">
+                        Lorem ipsum dolor sit amet.
+                      </p>
+                      <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quod, debitis quo. Voluptatem fugiat aspernatur nulla.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                  <p class="mb-3" style="font-size: 1.7rem;">
+                    Recent Posts
+                  </p>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Modi eaque quod ex officiis tempore sed natus, obcaecati,
+                    debitis ad asperiores minus, alias qui quis.
+                  </p>
+
+                  <button
+                    class="btn px-4 py-2"
+                    style="background-color: #22c1f9;color: white;"
+                  >
+                    VIEW MORE
+                  </button>
+                  <div class="mt-3 mb-3">
+                    <a href="#sliderthree" data-slide="prev">
+                      <i
+                        class="fa fa-chevron-circle-left fa-2x mr-2"
+                        style="cursor: pointer;color: #22c1f9;"
+                      ></i>
+                    </a>
+
+                    <a href="#sliderthree" data-slide="next">
+                      <i
+                        class="fa fa-chevron-circle-right fa-2x"
+                        style="cursor: pointer;color: #2f383d;"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <div class="card text-center">
+                    <div class="card-body p-0">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal1.jpg" data-lightbox="photos"
+                                ><img
+                                  class="img-fluid clip"
+                                  src="./img/gal4.jpg"
+                                />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-left text-muted">
+                      <p class="" style="color: #22c1f9;">
+                        Lorem ipsum dolor sit amet.
+                      </p>
+                      <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quod, debitis quo. Voluptatem fugiat aspernatur nulla.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                  <div class="card text-center">
+                    <div class="card-body p-0">
+                      <div class="photo-gallery">
+                        <div class="container">
+                          <div class="row photos">
+                            <div class=" item hover-mask">
+                              <a href="./img/gal1.jpg" data-lightbox="photos"
+                                ><img
+                                  class="img-fluid clip"
+                                  src="./img/gal4.jpg"
+                                />
+                                <h2>
+                                  <span
+                                    class="fa fa-plus"
+                                    style="color: white;"
+                                  ></span>
+                                </h2>
+                              </a>
+                            </div>
+                            <div class="item ">
+                              <a
+                                href="./img/gal3.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal4.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                            <div class="item">
+                              <a
+                                href="./img/gal1.jpg"
+                                data-lightbox="photos"
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-left text-muted">
+                      <p class="" style="color: #2f3839;">
+                        Lorem ipsum dolor sit amet.
+                      </p>
+                      <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quod, debitis quo. Voluptatem fugiat aspernatur nulla.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                  <p class="mb-3" style="font-size: 1.7rem;">
+                    Recent Posts
+                  </p>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Modi eaque quod ex officiis tempore sed natus, obcaecati,
+                    debitis ad asperiores minus, alias qui quis.
+                  </p>
+
+                  <button
+                    class="btn px-4 py-2"
+                    style="background-color: #22c1f9;color: white;"
+                  >
+                    VIEW MORE
+                  </button>
+                  <div class="mt-3 mb-3">
+                    <a href="#sliderthree" data-slide="prev">
+                      <i
+                        class="fa fa-chevron-circle-left fa-2x mr-2"
+                        style="cursor: pointer;color: #22c1f9;"
+                      ></i>
+                    </a>
+
+                    <a href="#sliderthree" data-slide="next">
+                      <i
+                        class="fa fa-chevron-circle-right fa-2x"
+                        style="cursor: pointer;color: #2f383d;"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 mb-3">
-            <p class="mb-3" style="font-size: 1.7rem;">
-              Recent Posts
-            </p>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              eaque quod ex officiis tempore sed natus, obcaecati, debitis ad
-              asperiores minus, alias qui quis.
-            </p>
-
-            <button
-              class="btn px-4 py-2"
-              style="background-color: #22c1f9;color: white;"
-            >
-              VIEW MORE
-            </button>
-            <div class="mt-3 mb-3">
-              <i
-                class="fa fa-chevron-circle-left fa-2x mr-2"
-                style="cursor: pointer;color: #22c1f9;"
-              ></i>
-              <i
-                class="fa fa-chevron-circle-right fa-2x"
-                style="cursor: pointer;"
-              ></i>
-            </div>
-          </div>
+          <!-- CONTROLS -->
         </div>
       </div>
     </section>
@@ -1290,20 +1991,28 @@
     <footer>
       <div class="container ">
         <div class="row">
-          <div class="col">
-            <i class="fab fa-google-plus"></i>
-
+          <div class="col text-center  mt-3 bord mb-2 pb-3">
+            <i class="fab fa-google-plus-g "></i>
+            <i class="fab fa-facebook-f "></i>
+            <i class="fab fa-maxcdn "></i>
+            <i class="fab fa-pinterest-p "></i>
+            <i class="fab fa-xbox "></i>
+            <i class="fab fa-youtube "></i>
+            <i class="fab fa-twitter "></i>
+            <i class="fab fa-tumblr "></i>
+            <i class="fab fa-android "></i>
+            <i class="fab fa-whatsapp"></i>
             <!-- NOT COMPLETED YET YA SHARMT -->
           </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-3">
           <div class="col-md-3">
             <div class="row">
               <div class="col">
                 <img src="./img/logo.png" alt="" />
                 <p class="d-inline-block text-white">
-                  ADEL<span style="font-weight:bold;color:#2e373c">FOX</span>
+                  ADEL<span style="font-weight:bold;color:black">FOX</span>
                 </p>
               </div>
             </div>
@@ -1556,29 +2265,29 @@
             </p>
           </div>
           <div class="col-md-6">
-            <nav class="navbar navbar-expand-sm navbar-light mb-3">
+            <nav class="navbar navbar-expand-sm navbar-light mb-3" id="main-nav">
               <div class="container">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#navibar">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pages</a>
+                    <a class="nav-link" href="#myslider">Pages</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#cards">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
+                    <a class="nav-link" href="#hovsec">Shop</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#people">Blog</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shortcodes</a>
+                    <a class="nav-link" href="#logos">Shortcodes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Featuers</a>
+                    <a class="nav-link" href="#upperfooter">Featuers</a>
                   </li>
                 </ul>
               </div>
@@ -1588,236 +2297,34 @@
       </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <div id="slider4" class="carousel slide mb-5" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li class="active" data-target="#slider4" data-slide-to="0"></li>
-          <li data-target="#slider4" data-slide-to="1"></li>
-          <li data-target="#slider4" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block img-fluid" src="./img/face3.jpeg" alt="First Slide">
-            <div class="carousel-caption d-none d-md-block">
-              
-    <div class="row">
-      <div class="col-md-6 mb-4">
-        <div class="photo-gallery">
-          <div class="container">
-            <div class="row photos">
-              <div class=" item hover-mask">
-                <a href="./img/gal2.jpg" data-lightbox="photos"
-                  ><img class="img-fluid" src="./img/gal1.jpg" />
-                  <h2>
-                    <span
-                      class="fa fa-plus"
-                      style="color: white;"
-                    ></span>
-                  </h2>
-                </a>
-              </div>
-              <div class="item ">
-                <a href="./img/gal3.jpg" data-lightbox="photos"></a>
-              </div>
-              <div class="item">
-                <a href="./img/gal4.jpg" data-lightbox="photos"></a>
-              </div>
-              <div class="item">
-                <a href="./img/gal1.jpg" data-lightbox="photos"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="photo-gallery">
-          <div class="container">
-            <div class="row photos">
-              <div class=" item hover-mask">
-                <a href="./img/gal1.jpg" data-lightbox="photos"
-                  ><img class="img-fluid" src="./img/gal2.jpg" />
-                  <h2>
-                    <span
-                      class="fa fa-plus"
-                      style="color: white;"
-                    ></span>
-                  </h2>
-                </a>
-              </div>
-              <div class="item ">
-                <a href="./img/gal3.jpg" data-lightbox="photos"></a>
-              </div>
-              <div class="item">
-                <a href="./img/gal4.jpg" data-lightbox="photos"></a>
-              </div>
-              <div class="item">
-                <a href="./img/gal1.jpg" data-lightbox="photos"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-4">
-      <div class="col-md-6 mb-4">
-        <div class="photo-gallery">
-          <div class="container">
-            <div class="row photos">
-              <div class=" item hover-mask">
-                <a href="./img/gal4.jpg" data-lightbox="photos"
-                  ><img class="img-fluid" src="./img/gal3.jpg" />
-                  <h2>
-                    <span
-                      class="fa fa-plus"
-                      style="color: white;"
-                    ></span>
-                  </h2>
-                </a>
-              </div>
-              <div class="item ">
-                <a href="./img/gal3.jpg" data-lightbox="photos"></a>
-              </div>
-              <div class="item">
-                <a href="./img/gal4.jpg" data-lightbox="photos"></a>
-              </div>
-              <div class="item">
-                <a href="./img/gal1.jpg" data-lightbox="photos"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="photo-gallery">
-          <div class="container">
-            <div class="row photos">
-              <div class=" item hover-mask">
-                <a href="./img/gal1.jpg" data-lightbox="photos"
-                  ><img class="img-fluid" src="./img/gal4.jpg" />
-                  <h2>
-                    <span
-                      class="fa fa-plus"
-                      style="color: white;"
-                        class="carouselTitle text-center"
-                        style="font-size:2em; top:8em ; left: 25em;"
-                      >
-                        <p>
-                          Amazing Theme
-                        </p>
-                        <p class="text-white " style="font-weight: bold; ">
-                          ADELFOX IS THE BEST
-                        </p>
-                        <p>
-                          Unique and Modern Design
-                        </p>
-                      </div> 
-                    ></span>
-                  </h2>
-                </a>
-              </div>
-              <div class="item ">
-                <a href="./img/gal3.jpg" data-lightbox="photos"></a>
-              </div>
-              <div class="item">
-                <a href="./img/gal4.jpg" data-lightbox="photos"></a>
-              </div>
-              <div class="item">
-                <a href="./img/gal1.jpg" data-lightbox="photos"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-            </div>
-          </div>
-          
-        </div>
-
-        
-        <a href="#slider4" class="carousel-control-prev" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-
-        <a href="#slider4" class="carousel-control-next" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-    </div>
-
-
-
-
-
-
-
-
-
     <script src="./jquery-3.4.1.min.js"></script>
     <script src="./bootstrap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script> -->
     <script src="./script.js"></script>
 
+    <script>
+    $('body').scrollspy({ target: '#main-nav' });
+
+// Add smooth scrolling
+$('#main-nav a').on('click', function (e) {
+  // Check for a hash value
+  if (this.hash !== '') {
+    // Prevent default behavior
+    e.preventDefault();
+
+    // Store hash
+    const hash = this.hash;
+
+    // Animate smooth scroll
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function () {
+      // Add hash to URL after scroll
+      window.location.hash = hash;
+    });
+  }
+});</script>
     <span class="icon-next" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
