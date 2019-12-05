@@ -24,9 +24,6 @@ $dark: #2f383d;
 #slider {
   height: 100%;
   width: 100%;
-  & img {
-    height: 100%;
-  }
 }
 
 .carouselTitle {
@@ -62,7 +59,7 @@ $dark: #2f383d;
 
 #mysldierFooter {
   background-color: $dark;
-  
+
   & p {
     color: #c0cbd1;
   }
@@ -196,8 +193,8 @@ $dark: #2f383d;
 }
 
 #upperfooter {
-  background-color:$dark;
-  
+  background-color: $dark;
+
   & .text-prim {
     font-size: 2rem;
   }
@@ -213,26 +210,42 @@ $dark: #2f383d;
 
 footer {
   background-color: #2f383d;
-  & .bord{
+  & .bord {
     border-bottom: 1px solid #3c454a;
-
+    max-width: 100%;
   }
-  & i{
+  & i {
     font-size: 1.4rem;
     margin-right: 4.8rem;
-    color:transparent;
+    color: transparent;
     cursor: pointer;
-background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,2,3,1) 3%, rgba(117,122,122,0.37298669467787116) 100%);
--webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #b1b5b4 0%, #b1b5b4 3%, rgba(117, 122, 122, 0.37298669467787116) 100%);
+    -webkit-background-clip: text;
   }
   & p.btn {
     background-color: #21262a;
     color: $social-icon;
     font-size: 0.8rem;
+    &:hover {
+      color: white;
+    }
   }
 }
 
 // KINDA MEDIA QUERIES
+
+@media only screen and (max-width: 600px) {
+  #slider {
+    & img {
+      height: auto;
+    }
+  }
+  footer {
+    & i {
+      margin-right: 0.3rem;
+    }
+  }
+}
 
 .size-lg {
   position: absolute;
@@ -253,7 +266,6 @@ background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,2,3,1) 3%, rg
     display: inline-block;
     max-width: 10rem;
 
-
     & .btn {
       cursor: pointer;
     }
@@ -261,6 +273,10 @@ background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,2,3,1) 3%, rg
 }
 
 // GALLERY EFFECTS
+
+//FANCYBOX GALLERY
+
+// END
 
 .hover-mask2 {
   &:hover img {

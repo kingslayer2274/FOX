@@ -8,6 +8,8 @@ $(window).ready(function() {
       $("#sliderTwo").addClass("lg-slider_2");
     });
   } else {
+    $(".iconsm").css("display", "inline-block");
+
     $(".cap_slider").removeClass("size-lg");
     $(".cap_slider").addClass("size-sm");
 
@@ -17,14 +19,27 @@ $(window).ready(function() {
   }
 });
 
+// FANCY BOX
 
+$(document).ready(function() {
+  $(".fancybox-button").fancybox({
+    prevEffect: "none",
+    nextEffect: "none",
+    closeBtn: false,
+    nextClick: true,
+    helpers: {
+      title: { type: "inside" },
+      buttons: {}
+    }
+  });
+});
 
-$('body').scrollspy({ target: '#main-nav' });
+$("body").scrollspy({ target: "#main-nav" });
 
 // Add smooth scrolling
-$('#main-nav a').on('click', function (e) {
+$("#main-nav a").on("click", function(e) {
   // Check for a hash value
-  if (this.hash !== '') {
+  if (this.hash !== "") {
     // Prevent default behavior
     e.preventDefault();
 
@@ -32,11 +47,15 @@ $('#main-nav a').on('click', function (e) {
     const hash = this.hash;
 
     // Animate smooth scroll
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 900, function () {
-      // Add hash to URL after scroll
-      window.location.hash = hash;
-    });
+    $("html, body").animate(
+      {
+        scrollTop: $(hash).offset().top
+      },
+      900,
+      function() {
+        // Add hash to URL after scroll
+        window.location.hash = hash;
+      }
+    );
   }
 });
